@@ -2,7 +2,7 @@ type: CheckConfig
 api_version: core/v2
 metadata:
   name: check12
-  namespace: default
+  namespace: test
 spec:
   check_hooks: null
   command: '!sensu_test_check!'
